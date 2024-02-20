@@ -21,3 +21,34 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+/* style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer {
+    margin-top: 20px;
+}
+
+
+// script.js
+function startTimer() {
+    var minutes = document.getElementById('timerInput').value;
+    var duration = minutes * 60 * 1000; // Convertir minutos a milisegundos
+    setTimeout(function() {
+        document.getElementById('audioPlayer').pause(); // Pausar la música
+        alert("Tiempo terminado");
+    }, duration);
+    document.getElementById('audioPlayer').play(); // Iniciar la reproducción de música
+}
