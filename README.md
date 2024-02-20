@@ -9,7 +9,7 @@
 <div class="container">
     <h1>Waves Effects</h1>
     <audio id="audioPlayer" controls>
-        <source src=<source src="simply-meditation-series-11hz-alpha-binaural-waves-for-relaxed-focus-8028.mp3" type="audio/mp3">
+        <source src=<source src=""C:\Users\ediga\Downloads\simply-meditation-series-11hz-alpha-binaural-waves-for-relaxed-focus-8028.mp3".mp3" type="audio/mp3">
         Tu navegador no soporta el elemento de audio.
     </audio>
     <div class="timer">
